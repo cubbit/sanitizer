@@ -26,7 +26,7 @@ g++ sanitizer.cc -fsanitize=address -g
 ./a.out 300
 ```
 
-### Undefined behavior sanitizer
+## Undefined behavior sanitizer
 
 Build with `-fsanitize=undefined` to enable the sanitizer.
 
@@ -38,7 +38,7 @@ g++ ub.cc -fsanitize=undefined -fno-sanitize-recover -g
 ./a.out 35
 ```
 
-# Thread sanitizer
+## Thread sanitizer
 
 Build with `-fsanitize=thread` to enable the sanitizer.
 
